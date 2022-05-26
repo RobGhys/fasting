@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
   },
   "keywords": [],
   "author": "",
@@ -14,6 +16,7 @@
     "graphql": "^16.5.0"
   },
   "devDependencies": {
+    "nodemon": "^2.0.16",
     "uuid": "^8.3.2"
   }
 }
